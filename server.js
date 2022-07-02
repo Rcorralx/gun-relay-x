@@ -28,7 +28,7 @@ export default {
     });
 
     if (!host) host = ip.address();
-    const link = "http://" + host + (port ? ":" + port : "");
+    const link = "https://" + host + (port ? ":" + port : "");
     let totalConnections = 0;
     let activeWires = 0;
 
