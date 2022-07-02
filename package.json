@@ -1,0 +1,32 @@
+{
+  "name": "@gun-vue/relay",
+  "desciprion": "A simple gun peer relay for free tier hosting",
+  "version": "0.3.7",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defucc/gun-vue.git",
+    "directory": "relay"
+  },
+  "bugs": {
+    "url": "https://github.com/defucc/gun-vue/issues"
+  },
+  "homepage": "https://gun-vue.js.org",
+  "funding": {
+    "type": "ko-fi",
+    "url": "https://ko-fi.com/davay"
+  },
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node start.js",
+    "build": "react-scripts build"
+     },
+  "dependencies": {
+    "@gun-vue/relay": "^0.3.7",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "gun": "0.2020.1237",
+    "ip": "^2.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
