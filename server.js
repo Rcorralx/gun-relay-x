@@ -7,7 +7,7 @@ import 'dotenv/config'
 export default {
   initiated: false,
   init({
-    host = process.env.RELAY_HOST  || "localhost",
+    host = process.env.RELAY_HOST  || "gun-relay-x",
     store = process.env.RELAY_STORE || false,
     port = process.env.RELAY_PORT || 4200,
     path = process.env.RELAY_PATH || "public",
